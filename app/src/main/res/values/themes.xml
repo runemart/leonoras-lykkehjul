@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Base.Theme.LeonorasApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#eee</item>
+        <item name="colorPrimaryDark">#c08</item>
+        <item name="android:navigationBarColor">#fff</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.LeonorasApp" parent="Base.Theme.LeonorasApp" />
+
+</resources>
