@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Base.Theme.LeonorasApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.LeonorasApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#eee</item>
         <item name="colorPrimaryDark">#c08</item>
         <item name="android:navigationBarColor">#fff</item>
@@ -8,7 +8,5 @@
         <item name="android:windowSplashScreenBackground" tools:targetApi="s">#cc0088</item>
         <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/empty</item>
     </style>
-
-    <style name="Theme.LeonorasApp" parent="Base.Theme.LeonorasApp" />
 
 </resources>
