@@ -41,13 +41,10 @@ class MainActivity : AppCompatActivity() {
             konfetti.start(
                 Party(
                     colors = listOf(colorInt),
-                    emitter = Emitter(duration = 200).max(100),
+                    emitter = Emitter(duration = 200).perSecond(3000),
                     speed = 10f,
-                    maxSpeed = 30f,
+                    maxSpeed = 60f,
                     damping = 0.95f,
-                    angle = 270,
-                    spread = 90,
-                    size = listOf(Size.LARGE),
                 )
             )
         } catch (e: Exception) {
