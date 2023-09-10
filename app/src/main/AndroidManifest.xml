@@ -5,8 +5,9 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LeonorasApp">
+        android:theme="@style/Theme.WheelOfFortune">
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -4,16 +4,17 @@ plugins {
 }
 
 android {
-    namespace "com.runemartin.leonorasapp"
+    namespace "com.runemartin.wheeloffortune"
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.runemartin.leonorasapp"
-        minSdk 27
-        targetSdk 33
         versionCode 1
         versionName "1.0"
 
+        applicationId "com.runemartin.wheeloffortune"
+        minSdk 27
+        targetSdk 33
+        resourceConfigurations += ["en", "nb"]
         buildFeatures { viewBinding = true }
     }
 
@@ -24,11 +25,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
 }
 

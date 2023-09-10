@@ -1,10 +1,10 @@
-package com.runemartin.leonorasapp
+package com.runemartin.wheeloffortune
 
 import android.os.Bundle
 import android.view.animation.DecelerateInterpolator
 import android.viewbinding.library.activity.viewBinding
 import androidx.appcompat.app.AppCompatActivity
-import com.runemartin.leonorasapp.databinding.MainActivityBinding
+import com.runemartin.wheeloffortune.databinding.MainActivityBinding
 import nl.dionsegijn.konfetti.core.Party
 import nl.dionsegijn.konfetti.core.emitter.Emitter
 import nl.dionsegijn.konfetti.core.models.Size

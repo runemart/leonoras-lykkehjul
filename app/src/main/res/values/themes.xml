@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.LeonorasApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.WheelOfFortune" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#eee</item>
         <item name="colorPrimaryDark">#c08</item>
         <item name="android:navigationBarColor">#fff</item>

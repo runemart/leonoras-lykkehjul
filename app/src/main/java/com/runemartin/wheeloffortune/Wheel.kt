@@ -1,4 +1,4 @@
-package com.runemartin.leonorasapp
+package com.runemartin.wheeloffortune
 
 import android.content.Context
 import android.graphics.Canvas
