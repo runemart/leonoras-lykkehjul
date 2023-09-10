@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wave"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text"
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfetti"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".8"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:gravity="center"
-        android:text="Leonoras lykkehjul"
-        android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:layout_height="match_parent" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="260dp"
-        android:layout_height="260dp"
-        android:clipChildren="false"
-        android:clipToPadding="false"
-        android:padding="8dp">
-
-        <com.runemartin.leonorasapp.Wheel
-            android:id="@+id/wheel"
+        <TextView
+            android:id="@+id/text"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true" />
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Leonoras lykkehjul"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
 
-        <com.sdsmdg.harjot.materialshadows.MaterialShadowViewWrapper
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
-            android:elevation="8dp">
 
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="8dp">
+
+            <com.runemartin.leonorasapp.Wheel
+                android:id="@+id/wheel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -60,25 +62,25 @@
                 app:elevation="8dp"
                 app:tint="@color/white" />
 
-        </com.sdsmdg.harjot.materialshadows.MaterialShadowViewWrapper>
-    </RelativeLayout>
+        </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
-        <Button
-            android:id="@+id/knapp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="56dp"
-            android:text="Spinn hjulet!"
-            android:textColor="@color/black" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="56dp"
+                android:text="Spinn hjulet!"
+                android:textColor="@color/black" />
 
 
-    </RelativeLayout>
+        </RelativeLayout>
 
-</LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
