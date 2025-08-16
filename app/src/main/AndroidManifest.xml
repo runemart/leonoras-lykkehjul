@@ -10,6 +10,7 @@
         android:theme="@style/Theme.WheelOfFortune">
         <activity
             android:name=".MainActivity"
+            android:configChanges="navigation|orientation|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|uiMode"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
